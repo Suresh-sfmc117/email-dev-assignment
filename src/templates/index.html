@@ -1,61 +1,460 @@
----
-preheader: ""
----
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
-<x-main>
-  <table class="mx-auto font-primary align-center-table">
-    <tr>
-      <td class="w-[600px] sm:w-full bg-white align-center-table max-w-[600px]">
-        <table class="w-full">
-          <tr>
-            <td>
-              <!-- Section 01 -->
-              <x-sections.section-01 />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <!-- DELETE THIS COMMENT BEFORE BUILD - ALL FRAGMENTS SHOULD BE INSIDE STANDALONE TABLE - LIKE IN EXAMPLE: -->
-              <table class="w-full">
-                <tr>
-                  <td>
-                    <x-fragments.fragment-01 />
-                    <x-fragments.fragment-02 />
-                    <x-fragments.fragment-03 />
-                    <x-fragments.fragment-04 />
-                    <x-fragments.fragment-05 />
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <!-- Section 02 -->
-              <x-sections.section-02 />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <!-- Section 03 -->
-              <x-sections.section-03 />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <!-- Section 04 -->
-              <x-sections.section-04 />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <!-- Section 05 -->
-              <x-sections.section-05 />
-            </td>
-          </tr>
-          <!-- Add more <tr> as shown above to add more sections, or delete unused sections -->
-        </table>
-      </td>
-    </tr>
-  </table>
-</x-main>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  
+
+  <title>Suresh's Assignment work</title>
+  <!--[if gte mso 9]> 
+<style> 
+.keep-dark_davy_blue { 
+mso-style-textfill-type:gradient;
+mso-style-textfill-fill-gradientfill-stoplist:"0 \#1B284D -1 100000\,99000 \#1B284D -1 100000"; 
+color:#ffffff !important;
+} 
+</style> 
+<![endif]-->
+  <style type="text/css">
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .body {
+        background-color: #ffffff !important;
+        color: #252525 !important;
+      }
+
+      table.dark_bg {
+
+        background-color: #fcfcfc !important;
+
+      }
+
+      td.dark_bg {
+
+        background-color: #fcfcfc !important;
+
+      }
+
+      .dark_bg {
+
+        background-color: #fcfcfc !important;
+
+      }
+
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      color: #414042;
+      font-family: 'Arial', Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      hyphens: normal;
+      line-height: 19px;
+      border-collapse: collapse;
+      height: auto;
+      min-width: 319px;
+    }
+
+    img {
+      border: none !important;
+    }
+
+    * {
+      -webkit-text-size-adjust: none
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .hideShow {
+      display: none;
+      mso-hide-all: none;
+    }
+
+    .hide_desktop {
+      display: none !important;
+      float: none !important;
+      width: 100% !important;
+      overflow: visible !important;
+      height: auto !important;
+    }
+
+    ul {
+      padding: 0 !important;
+      list-style-type: none !important;
+      margin: 0 !important;
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width: 560px) {
+
+      .transparent_bg {
+        background-color: transparent !important;
+      }
+
+      .mobile_screen {
+        width: 100% !important;
+      }
+
+      .mobileBody {
+        width: 100% !important;
+      }
+
+      .mobileBody_footer {
+        width: 100% !important;
+        padding: 0px 0 30px 0 !important;
+      }
+
+      .full_width {
+        width: 100% !important;
+        display: block !important;
+      }
+
+      .img-responsive {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+      }
+
+      .img-responsive1 {
+        width: 158px !important;
+      }
+
+      .mob_hide {
+        display: none !important;
+      }
+
+      .mobileHidden,
+      .mobileHidden table,
+      .mobileHidden tbody,
+      .mobileHidden tr,
+      .mobileHidden td {
+        display: none !important;
+        mso-hide: all !important;
+      }
+
+      .hide_desktop {
+        display: table !important;
+        float: none !important;
+        width: 100% !important;
+        overflow: visible !important;
+        height: auto !important;
+      }
+
+      .center {
+        text-align: center !important;
+        margin: 0 auto !important;
+      }
+
+      .mob_padd {
+        padding: 20px 10px 30px 10px !important;
+      }
+
+      .paddlr9 {
+        padding: 20px 9px 30px 9px !important;
+      }
+
+      .paddtop24 {
+        padding: 24px 0 0 0 !important;
+      }
+
+      .paddtop24btm20 {
+        padding: 24px 0 20px 0 !important;
+      }
+
+      .nopadding {
+        padding: 0 !important;
+      }
+
+      .block {
+        display: block !important;
+        margin: 0 auto !important;
+      }
+
+      .font11 {
+        font-size: 11px !important;
+        line-height: 18px !important;
+      }
+
+      .icon {
+        width: 15px !important;
+      }
+
+      .logo {
+        width: 50px !important;
+      }
+
+      .paddlr20 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+
+      .fonts14lh25 {
+        font-size: 14px !important;
+        line-height: 22px !important;
+        padding: 12px 20px 20px 20px !important;
+      }
+
+      .bgsize {
+        background-size: 100% 100% !important;
+      }
+
+      .font13 {
+        font-size: 13px !important;
+      }
+
+      .paddtopnew1 {
+        padding-top: 22px !important;
+        font-size: 18px !important;
+      }
+
+      .paddtopnew2 {
+        padding-top: 24px !important;
+        font-size: 23px !important;
+      }
+
+    }
+  </style>
+
+  
+  
+  <!--[if gte mso 9]> 
+<style> 
+.keep-dark_davy_blue { 
+mso-style-textfill-type:gradient;
+mso-style-textfill-fill-gradientfill-stoplist:"0 \#1B284D -1 100000\,99000 \#1B284D -1 100000"; 
+color:#ffffff !important;
+} 
+</style> 
+<![endif]-->
+</head>
+
+<body
+  style=" -moz-box-sizing:border-box; -moz-hyphens:none; -ms-text-size-adjust:100%; -ms-word-break:keep-all; -webkit-box-sizing:border-box; -webkit-hyphens:none; -webkit-text-size-adjust:100%; margin:0; box-sizing:border-box; color:#0a0a0a; font-family: 'Roboto', Helvetica, Arial, sans-serif; font-size:16px; font-weight:normal; hyphens:none; line-height:0px; margin:0; min-width:100%; padding:0; text-align:center; width:100%!important; word-break:normal;"
+  yahoo="fix">
+  <center>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#E9E9E9" class="transparent_bg">
+      <tr>
+        <td align="center" valign="top">
+          <table width="600" border="0" cellpadding="0" cellspacing="0" bgcolor="#fff"
+            class="mobile_screen" align="center" style="margin:0 auto; table-layout: fixed;">
+            <tr>
+              <td style="padding: 20px;">
+                <table border="0" cellpadding="0" cellspacing="0">
+                  <!--Section 1-->
+                  <tr>
+                    <td align="center" bgcolor="#fff">
+                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                        <tr>
+                          <td>
+                            <table border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td align="center" style="padding:15px 0 0px 0;"><img border="0"
+                                    src="https://placehold.co/110x45"
+                                    style="display:block; outline:0;border: 0; border-style: none; height: auto;" width="110"
+                                    class="img-responsive1">
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td >
+                            <table border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td align="left"
+                                  style="font-size:12px; font-weight:400; color: #002b2b; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:13.8px; padding: 0 0 0 20px;">
+                                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!--Section 2-->
+                  <tr>
+                    <td align="center" style="padding:15px 0 0 0;"><img border="0"
+                        src="https://placehold.co/560x230"
+                        style="display:block; outline:0;border: 0; border-style: none; height: auto;" width="560"
+                        class="img-responsive1">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"
+                      style="font-size:24px; font-weight:700; color: #005555; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:27.6px; padding: 15px 0 0 0;">
+                      Excepteur sint occaecat cupidatat </td>
+                  </tr>
+                  <tr>
+                    <td align="center"
+                      style="font-size:16px; font-weight:400; color: #444444; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:18.4px; padding: 20px 0 0 0;">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" style="padding:15px 0 30px 0">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                        style="border-collapse:separate;line-height:80%;">
+                        <tr>
+                          <td align="center" bgcolor="#008080" role="presentation"
+                            style="border:none;border-radius:10px;cursor:auto;padding:12px 40px;font-size:20px" valign="middle">
+                            <a href="#"
+                              style="color:#fcfcfc;text-decoration:none;" target="_blank" title="Ut enim ad minim veniam">Ut enim ad minim veniam
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!--Section 3-->
+                  <tr>
+                    <td>
+                      <table width="100%" bgcolor="#F0F5F5" border="0" cellpadding="0" cellspacing="0" align="center">
+                        <tr>
+                          <td>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td align="center"
+                                  style="font-size:24px; font-weight:700; color: #005555; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:27.6px; padding: 20px 0;">
+                                  Sint cupidatat occaecat ut </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table border="0" cellpadding="0" cellspacing="0" align="center">
+                              <tr>
+                                <td>
+                                  <table border="0" cellpadding="0" cellspacing="0" width="260" bgcolor="#fff">
+                                    <tr>
+                                      <td align="center" style="padding:15px 0 0 0;"><img border="0"
+                                          src="https://placehold.co/100x100"
+                                          style="display:block; outline:0;border: 0; border-radius: 50%; border-style: none; height: auto;"
+                                          width="100">
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center"
+                                        style="font-size:20px; font-weight:700; color: #005555; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:23px; padding: 15px 0 0 0;">
+                                        Nisi ut ade </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center"
+                                        style="font-size:16px; font-weight:400; color: #444444; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:18.4px; padding: 20px 15px 30px 15px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam.¹</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td style="padding: 0 5px;">
+                                  
+                                </td>
+                                <td>
+                                  <table border="0" cellpadding="0" cellspacing="0" width="260" bgcolor="#fff">
+                                    <tr>
+                                      <td align="center" style="padding:15px 0 0 0;"><img border="0"
+                                          src="https://placehold.co/100x100"
+                                          style="display:block; outline:0;border: 0; border-radius: 50%; border-style: none; height: auto;"
+                                          width="100">
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center"
+                                        style="font-size:20px; font-weight:700; color: #005555; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:23px; padding: 15px 0 0 0;">
+                                        Duis aute irure </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center"
+                                        style="font-size:16px; font-weight:400; color: #444444; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:18.4px; padding: 20px 15px 30px 15px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.² </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding: 20px 0;">
+
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!--Section 4-->
+                  <tr>
+                    <td align="left"
+                      style="font-size:12px; font-weight:400; color: #000000; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:18.4px; padding: 20px 0 0 0;">
+                      <b>Ut enim ad minim:</b><br><br>
+                  
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. <br><br>
+                  
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                      aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br>
+                  
+                  
+                      <b>Sint occaecat cupidatat:</b><br><br>
+                      <ol style="padding: 0 0 0 20px; margin: 0;" >
+                        <li>
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </li>
+                        <li>
+                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        </li>
+                      </ol>
+                      
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 20px 0;">
+                      <table align="center" width="95%" style="border-bottom: 2px solid #002B2B;" border="0" cellpadding="0" cellspacing="0">
+
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"
+                      style="font-size:12px; font-weight:400; color: #000000; font-family: 'Arial', Helvetica, Arial, sans-serif;line-height:18.4px; padding: 10px 0 0 0;">
+                      
+                      Sed do eiusmod tempor incididunt ut labore
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding:15px 0 0 0;"><img border="0"
+                        src="https://placehold.co/100x40"
+                        style="display:block; outline:0;border: 0; border-style: none; height: auto;" width="100"
+                        class="img-responsive1">
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+
+</html>
